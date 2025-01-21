@@ -79,6 +79,13 @@ body {
   transition: transform 0.3s ease;
 }
 
+.logo-text{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000000 !important;
+  margin-bottom: 0px !important;
+}
+
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -2694,6 +2701,7 @@ h4,
   background: #031ba4 !important;
   border: 1px solid #95adbe !important;
   color: #fff !important;
+  padding: 16px !important;
 }
 
 .btn.btn-primary:hover {
@@ -3024,6 +3032,7 @@ textarea.form-control {
   font-weight: 500;
   display: block;
   margin-bottom: 10px;
+  padding-right: 10px;
 }
 
 .book-wrap .text .price {
@@ -3089,11 +3098,11 @@ textarea.form-control {
 }
 
 .book-wrap .img .icon:hover span {
-  color: #fff;
+  color: #031ba4 ;
 }
 
 .book-wrap:hover {
-  background: #95adbe;
+  background: red;
 }
 
 .book-wrap:hover .img .in-text {
@@ -3185,7 +3194,7 @@ textarea.form-control {
 .ftco-footer .ftco-footer-widget h2 {
   font-weight: normal;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   font-size: 20px;
   font-weight: 600;
 }
@@ -3284,7 +3293,7 @@ textarea.form-control {
   font-size: 14px;
   display: inline-block;
   margin-bottom: 0;
-  color: #ff7a5c;
+  color: #d900ff;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -3424,6 +3433,7 @@ textarea.form-control {
 
 .testimony-section .owl-dots {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .testimony-section .owl-dots .owl-dot {
@@ -3456,7 +3466,7 @@ textarea.form-control {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #95adbe;
+  background: #d900ff;
 }
 
 .testimony-wrap .icon span {
